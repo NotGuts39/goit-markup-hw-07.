@@ -1,0 +1,41 @@
+/* Site nav */
+
+.site-nav--secondary-link {
+  margin-left: auto;
+}
+
+.site-nav__link-nav {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.site-nav__envelope {
+  width: 16px;
+  height: 12px;
+  fill: currentColor;
+}
+
+.site-nav__smartphone {
+  width: 10px;
+  height: 16px;
+  fill: currentColor;
+}
+
+.site-nav__envelope--div,
+.site-nav__smartphone--div {
+  display: inline-flex;
+  margin-right: 10px;
+}
